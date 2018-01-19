@@ -12,6 +12,7 @@ function whileLoop(n) {
   return "done"
 }
 function doWhileLoop(array){
+<<<<<<< HEAD
   
   do {
     console.log("Number of items in array:" + array.length)
@@ -19,6 +20,11 @@ function doWhileLoop(array){
     
   } while ( array.length > 0 && maybeTrue())
   return array
+=======
+  do {
+    console.log(array.shift())
+  } while ( array.lenth > 0 && maybeTrue())
+>>>>>>> 902d67050329f643c4095fd3f2ba429b22060c23
 }
 
 function maybeTrue() {
@@ -26,3 +32,7 @@ function maybeTrue() {
 }
 
 
+<<<<<<< HEAD
+=======
+}
+>>>>>>> 902d67050329f643c4095fd3f2ba429b22060c23
